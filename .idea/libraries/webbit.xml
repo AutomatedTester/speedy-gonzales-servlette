@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webbit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../webbit/dist/webbit-all-in-one.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,16 @@
+<project default="package">
+  <target name="build">
+    <mkdir dir="ant-build"/>
+    <javac srcdir="src/" destdir="ant-build" debug="true" includeantruntime="false">
+      <classpath>
+        <fileset dir="lib">
+          <include name="*.jar"/>
+        </fileset>
+      </classpath>
+    </javac>
+  </target>
+
+  <target name="package" depends="build">
+    <jar destfile="servlette.jar" basedir="ant-build" manifest="Manifest.txt"/>
+  </target>
+</project>

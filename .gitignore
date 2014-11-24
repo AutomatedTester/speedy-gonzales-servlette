@@ -1,2 +1,7 @@
 out/*
 ant-build/*
+/target/
+/.settings/
+/.classpath
+/.project
+/servlette.jar
